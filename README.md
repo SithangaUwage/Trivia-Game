@@ -10,3 +10,4 @@ The project does not include responsiveness at the moment. Please zoom out of th
 ![alt text](/Images/Github.PNG)
 
 Click on the site URL to access the site. This website build is still in progress.
+https://sithangauwage.github.io/Trivia-Game/
