@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Games Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style-questions.css">
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="stylesheet" src="bootstrap.min.css"></script>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  </head>
+  <body>
+
+    <section id="showcase">
+      <div class="container main-background-container">
+        <div class="main-background-gif">
+          <img id="background-main-image" src="../Images/Question-background1.gif" alt="Main background image" ></img>
+        </div>
+      </div>
+    </section>
+
+    <div id="scoreboard-top" class="scoreboard">
+      <h2>Score Board</h2>
+    </div>
+
+    <div class="grid">
+        <div id="quiz">
+            <p id="question"></p>
+
+            <div id="pixel-steve">
+            <div class="container steve-harvey-container">
+              <div class="steve-harvey-face">
+                <img id="steve-harvey-face-cutout" src="../Images/Steve-Harvey-Face.gif" alt="Steve Harvey's face" ></img>
+              </div>
+            </div>
+            </div>
+
+            <div id="michael-jordan">
+            <div class="container michael-jordan-container">
+              <div class="michael-jordan-face">
+                <img id="michael-jordan-cutout" src="../Images/michael-jordan.png" alt="michael-jordan face" ></img>
+              </div>
+            </div>
+            </div>
+
+            <div id="kanye-west">
+            <div class="container kanye-west-container">
+              <div class="kanye-west-face">
+                <img id="kanye-west-cutout" src="../Images/kanye-west.png" alt="kanye-west face" ></img>
+              </div>
+            </div>
+            </div>
+
+            <div id="donald-trump">
+            <div class="container donald-trump-container">
+              <div class="donald-trump-face">
+                <img id="donald-trump-cutout" src="../Images/donald-trump.png" alt="donald-trump face" ></img>
+              </div>
+            </div>
+            </div>
+
+            <div id="mario">
+            <div class="container mariodonald-trump-container">
+              <div class="mario-face">
+                <img id="mario-cutout" src="../Images/Mario.gif" alt="Mario face" ></img>
+              </div>
+            </div>
+            </div>
+
+            <div class="buttons">
+              <div id="buttons-container1">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+              </div>
+              <div id="buttons-container2">
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+              </div>
+            </div>
+
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+
+    <div class="Winner-div">
+      <h1 id="Winner">Winner</h1>
+    </div>
+
+    <div class="Loser-div">
+      <h1 id="Loser">Loser</h1>
+    </div>
+
+    <div id="Restart-div">
+      <a href="question-category1.html"><button id="Restart">Restart</button></a>
+    </div>
+
+    <div id="Main-div">
+      <a href="../index.html"><button id="Main">Main Menu</button></a>
+    </div>
+
+    <script src="question-1.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,268 @@
+.navbar-default {
+  background: #fff;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+  font-size:20px;
+  color:#000;
+  font-weight:bold;
+}
+.main-background-container {
+  width:100%;
+  height:100%;
+  padding: 0;
+}
+#background-main-image {
+  width:100%;
+  height:758px;
+}
+#score {
+    color: #5A6772;
+    text-align: center;
+    font-size: 30px;
+}
+#question {
+    position: fixed;
+    text-align: center;
+    width: 980px;
+    height: 500px;
+    top: 150px;
+    left: 320px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    font-family: 'VT323', monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    animation:question-title-animation 5s;
+    -webkit-animation:question-title-animation 5s infinite; /* Safari and Chrome */
+}
+@-webkit-keyframes question-title-animation
+{
+    0%   {color:orange;}
+    50%  {color:yellow;}
+    100% {color:orange;}
+}
+#btn0 , #btn1 , #btn2 , #btn3 {
+    width: 400px;
+    height: 100px;
+    font-family: 'VT323', monospace;
+    font-size: 50px;
+    color: white;
+    display:inline-block;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    animation:questions-buttons-animation 5s;
+    -webkit-animation:questions-buttons-animation 5s infinite; /* Safari and Chrome */
+}
+@-webkit-keyframes questions-buttons-animation
+{
+    0%   {background-color:orange;}
+    50%  {background-color:yellow;}
+    100% {background-color:orange;}
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus, #Restart:focus, #Main:focus {
+    outline: 0;
+}
+
+#buttons-container1 {
+    text-align: center;
+    position: fixed;
+    top: 320px;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#buttons-container2 {
+    text-align: center;
+    position: fixed;
+    top: 450px;
+    left: 50px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+#progress {
+    text-align: center;
+    position: fixed;
+    left: 30px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    font-family: 'VT323', monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    animation:question-title-animation 5s;
+    -webkit-animation:question-title-animation 5s infinite; /* Safari and Chrome */
+}
+#scoreboard-top {
+    position: fixed;
+    top: 50px;
+    right: 300px;
+    bottom: 0;
+    z-index: 2;
+    font-family: 'VT323', monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    animation:question-title-animation 5s;
+    -webkit-animation:question-title-animation 5s infinite; /* Safari and Chrome */
+}
+#Winner {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 300px;
+    bottom: 0;
+    z-index: 2;
+    font-family: 'VT323', monospace;
+    font-weight: bolder;
+    font-size: 400px;
+    animation:question-title-animation 5s;
+    -webkit-animation:question-title-animation 5s infinite; /* Safari and Chrome */
+}
+#Loser {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 400px;
+    bottom: 0;
+    z-index: 2;
+    font-family: 'VT323', monospace;
+    font-weight: bolder;
+    font-size: 400px;
+    animation:question-title-animation 5s;
+    -webkit-animation:question-title-animation 5s infinite; /* Safari and Chrome */
+}
+#Restart {
+    width: 200px;
+    height: 80px;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    color: white;
+    display:inline-block;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 10px;
+    animation:questions-buttons-animation 5s;
+    -webkit-animation:questions-buttons-animation 5s infinite; /* Safari and Chrome */
+}
+#Restart-div {
+    display: none;
+    text-align: center;
+    position: fixed;
+    top: 520px;
+    left: 30px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#Main {
+    width: 200px;
+    height: 80px;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    color: white;
+    display:inline-block;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 10px;
+    animation:questions-buttons-animation 5s;
+    -webkit-animation:questions-buttons-animation 5s infinite; /* Safari and Chrome */
+}
+#Main-div {
+    display: none;
+    text-align: center;
+    position: fixed;
+    top: 610px;
+    left: 30px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+#pixel-steve {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 40px;
+    left: 470px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#steve-harvey-face-cutout {
+  width: 110px;
+  height: 110px;
+}
+#michael-jordan {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 40px;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#michael-jordan-cutout {
+  width: 100px;
+  height: 100px;
+}
+#kanye-west {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 40px;
+    left: 800px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#kanye-west-cutout {
+  width: 100px;
+  height: 100px;
+}
+#donald-trump {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 40px;
+    left: 290px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#donald-trump-cutout {
+  width: 100px;
+  height: 100px;
+}
+#mario {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 40px;
+    left: 640px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#mario-cutout {
+  width: 100px;
+  height: 100px;
+}

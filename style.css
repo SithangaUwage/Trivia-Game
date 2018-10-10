@@ -1,0 +1,186 @@
+.navbar-default {
+  background: #fff;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+  font-size:20px;
+  color:#000;
+  font-weight:bold;
+}
+.main-background-container {
+  width:100%;
+  height:100%;
+  padding: 0;
+}
+#background-main-image {
+  width:100%;
+  height:758px;
+}
+#pixel-steve {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    left: 500px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#steve-harvey-face-cutout {
+  width: 110px;
+  height: 110px;
+}
+#michael-jordan {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 200px;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#michael-jordan-cutout {
+  width: 100px;
+  height: 100px;
+}
+#kanye-west {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 210px;
+    left: 900px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#kanye-west-cutout {
+  width: 100px;
+  height: 100px;
+}
+#donald-trump {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 610px;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#donald-trump-cutout {
+  width: 100px;
+  height: 100px;
+}
+#Straight-cutout {
+    position: fixed;
+    width: 120px;
+    height: 60px;
+    top: 20px;
+    left: 30px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#Up-cutout {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    left: 155px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#Facts-cutout {
+    position: fixed;
+    width: 110px;
+    height: 50px;
+    top: 20px;
+    left: 230px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#start-btn {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 250px;
+    left: 440px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#start-btn-cutout {
+  width: 250px;
+  height: 200px;
+}
+#modalBtn {
+  width: 240px;
+  height: 60px;
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  color: white;
+  display:inline-block;
+  border-radius: 10px;
+  border: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 20px;
+  animation:buttons-animation 5s;
+  -webkit-animation:buttons-animation 5s infinite; /* Safari and Chrome */
+}
+@-webkit-keyframes buttons-animation
+{
+  0%   {background-color:orange;}
+  50%  {background-color:yellow;}
+  100% {background-color:orange;}
+}
+#modal-container {
+    text-align: center;
+    position: fixed;
+    top: 400px;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+#modalBtn:focus {
+    outline: 0;
+}
+.modal-content {
+    background-color: #fefefe;
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    top: 500px;
+    right: 10px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 240px;
+}
+.close {
+    color: black;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+}
+#Audio-Image {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    top: 600px;
+    left: 20px;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
